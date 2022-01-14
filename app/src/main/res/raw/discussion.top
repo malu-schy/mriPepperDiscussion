@@ -1,0 +1,5 @@
+topic: ~discussion()
+
+u:(hello) Hello, please change my language in my settings to German.
+
+u: (e:Dialog/NotUnderstood) Please change my language to German in the settings.

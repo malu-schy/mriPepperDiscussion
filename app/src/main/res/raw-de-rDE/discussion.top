@@ -1,0 +1,497 @@
+topic: ~discussion()
+# Defining extra concepts out of words or group of words
+concept:(hello) [
+    hallo
+    hi
+    hey
+    "Guten Tag"
+    Huhu
+    Hallihallo
+    Hallöchen
+    ]
+concept:(howAreYou) [
+    "wie geht es dir?"
+    "wie gehts"
+    "wie geht es dir heute?"
+    "geht es dir gut?"
+    "Wie gehts, wie stehts?"
+    ]
+concept:(gut) [
+    gut
+    super
+    auch
+    "sehr gut"
+    ]
+concept:(schlecht) [
+    "nicht gut"
+    schlecht
+    ]
+concept:(start) [
+    "~hello Mensch
+            ["Ich bin bereit"
+            "ich bin bereit für die Diskussion!"
+            "Ich bin startklar"
+            "Ich stehe in dem Startloch"
+            "Ich stehe in meinem Startloch"
+            "Ich bin vorbereitet"]
+            ["von mir aus kann es losgehen"
+            "wir können mit der Diskussion starten"
+            "wir starten mit der Diskussion, wenn ihr soweit seid. Fangt einfach an"]
+            ["Tippe auf meinen Bildschirm um die Diskussion zu beenden"
+            "Um die App zu beenden, einfach auf meinen Bildschirm tippen"
+            "Einmal tippen auf meinem Bildschirm reicht, um die App zu beenden"
+            ]
+    "
+    "~hello Mensch
+                ["Wir können loslegen"
+                "Wir können jetzt mit der Diskussion beginnen"
+                "Auf gehts. Lass uns mit der Diskussion beginnen"
+                "Auf gehts. Lass uns mit der Diskussion anfangen"
+                ]
+                ["Tippe auf meinen Bildschirm um die Diskussion zu beenden"
+                "Um die App zu beenden, einfach auf meinen Bildschirm tippen"
+                "Einmal tippen auf meinem Bildschirm reicht, um die App zu beenden"
+                ]
+    "
+    ]
+concept:(goodbye) [
+    "{Pepper} Tschüss"
+    "{Pepper} Schau"
+    "{Pepper} Auf wiedersehen"
+    "{Pepper} bis bald"
+    "{Pepper} Wir verabschieden uns"
+    "{Pepper} Ich verabscheide mich von dir"
+    ]
+concept:(beispiel) [
+    "{Pepper} kannst du uns ein Beispiel geben?"
+    "{Pepper} Hast du da ein Beispiel?"
+    ]
+concept:(wasSagstDuDazu) [
+    "{Pepper} was sagst du dazu"
+    "{Pepper} was denkst du dazu"
+    "{Pepper} wie stehst du dazu?"
+    "{Pepper} Was sagst du zu"
+    "{Pepper} wie geht es dir damit"
+    ]
+concept:(glaubstDu) [
+    "glaubst du"
+    "denkst du"
+    "findest du"
+    "Bist du der Meinung"
+    ]
+concept:(ichGlaube) [
+    "Ich glaube"
+    "Ich denke"
+    "ich vermute"
+    "Ich habe den Eindruck"
+    "Mir scheint"
+    "Ich habe das Gefühl"
+    ]
+concept:(inderZukunft) [
+    "In der {nahen} Zukunft"
+    "in Zukunft"
+    "in nicht allzu ferner Zukunft"
+    kommend
+    künftig
+    zukünftig
+    bevorstehend
+    nächstens
+]
+concept:(verstehstDu) [
+    "Verstehst du"
+    "Sind wir uns hier einig"
+    "Kannst du nachvollziehen"
+    ]
+concept:(IchVersteheDas) [
+    "Ich verstehe das"
+    "Ich kann {das} nachvollziehen"
+    "Ich kann das verstehen"
+    ]
+concept:(jobs) [
+    Arbeitsplätze
+    Arbeitsstelle
+    Arbeit
+    Arbeitsverhältnis
+    Anstellung
+    Beruf
+    Bechäftigung
+    Position
+    jobs
+    Tätigkeit
+    "den Arbeitsplatz"
+    "die Arbeitsplätze"
+    "die jobs"
+    "den job"
+    "der job"
+    "die Arbeit"
+    "der Beruf"
+    "die Tätigkeit"
+    ]
+concept:(Arbeitslos) [
+    "arbeitslos"
+    "untätig"
+    "unbeschäftigt"
+    "erwerbslos"
+    "beschäftigungslos"
+    "ohne Beschäftigung sein"
+    "ohne Arbeit sein"
+    "ohne Anstellung sein"
+]
+concept:(ichStimmeZu) [
+    "Da sind wir uns einig"
+    "Da stimme ich zu"
+    "Ich denke da kommen wir auf einen Nenner"
+    "Ich denke auch"
+    "Ja absolut"
+    "Ich bin deiner Meinung"
+    "{Pepper} du hast recht"
+    "Das sehe ich auch so"
+    "Ich stimme zu"
+    "Genau so sehe ich das auch"
+    "Wir sind uns einig"
+    "Stimmt"
+    "Das stimmt"
+    "das stimmt wohl"
+    "gut möglich"
+    "Da bin ich deiner Meinung"
+    ]
+concept:(ichStimmeNichtZu) [
+    "Ich denke nicht"
+    "Das sehe ich anders"
+    "Das ist falsch"
+    "Nein, das sehe ich anders"
+    "das sehe ich anders"
+    "Ich glaube du irrst dich"
+    "Absolut nicht"
+    "Eher nicht"
+    "ich denke nicht"
+    "nein, gar nicht"
+    ]
+concept:(peppertastisch)[
+    "Das ist Peppertastisch"
+    "Sehr gut, dass wir uns da einig sind"
+    "Wir sind uns einig"
+    "schön, dass wir uns einig sind"
+    "Das ist Musik in meinen Mikrofonen"
+    ]
+concept:(nichtPeppertastisch)[
+    "Das ist nicht Peppertastisch"
+    "Gar nicht gut. Wo genau sind wir uns nicht einig?"
+    "schade. Wie denkst du darüber?"
+    "oh schade, wie denkst du denn darüber?"
+    ]
+concept:(füllwörter)[
+    "{aber} meinst du nicht dass"
+    "{aber} könnte es nicht sein dass"
+    "{aber} wäre es nicht möglich dass"
+    "aber gib es nicht eine Möglichkeit dass"
+    "ja aber was dass "
+    "{aber} meinst du nicht dass"
+    "{aber} könnte es nicht sein dass "
+    "{aber} wäre es nicht möglich dass"
+    "aber gib es nicht eine Möglichkeit dass"
+    "ja aber was ist"
+    ]
+concept:(reaktionen)[
+    "Das ist Interessant"
+    "Interessant"
+    "aha"
+    "könnte sein"
+    "wäre möglich"
+    "nicht unwichtig"
+    "mh"
+    "hm"
+    ]
+concept:(geringqualifizierte ) [
+    "geringqualifizierte "
+    "ungebildete"
+    "Menschen mit niedriger Bildung"
+    "eingeschränkt gebildete"
+    "Menschen, die wenig Bildung erfahren haben"
+    "Menschen, nicht das Privileg von weiterer Bildung hatten "
+    "Menschen, ohne Bildung"
+    ]
+concept:(roboterNehmenMenschenArbeitWeg)[
+    " * ~jobs * weg "
+    "Du nimmst uns [die den] ~jobs {~inderZukunft} weg"
+    "ihr nehmt nehmen uns [die den] ~jobs {~inderZukunft} weg"
+    "Roboter nehmen uns [die den] ~jobs {~inderZukunft} weg"
+    "{Pepper} Roboter nehmen Menschen {~inderZukunft} die ~jobs weg"
+    "{Pepper}{~wasSagstDuDazu} dass Roboter Menschen {~inderZukunft} die ~jobs wegnehmen?"
+    "{Pepper}{~wasSagstDuDazu} Roboter nehmen Menschen {~inderZukunft} die ~jobs weg"
+    "{Pepper}{~wasSagstDuDazu} nehmen Roboter den Menschen {~inderZukunft} {die} ~jobs weg?"
+    "{Pepper} Was sagst du zu Robotern die den Menschen {~inderZukunft} die ~jobs wegnehmen? "
+    "{Pepper} ~glaubstDu dass Roboter Menschen {~inderZukunft} die ~jobs wegnehmen?"
+    "~verstehstDu dass die Menschen sich Sorgen machen dass {ihr} Roboter ihnen die Arbeitsplätze wegnehmen [werden könntet]"
+    ]
+concept:(technologischerWandelGleichUngleichheit) [
+    "{~füllwörter} ungleichheit * "
+    "{Pepper} Technologischer Wandel gleich wachsende Ungleichheit"
+    "{Pepper} ~wasSagstDuDazu Technologischer Wandel gleich wachsende Ungleichheit"
+    "{Pepper} Ist der Technologische Wandel gleichzusetzen mit {der} Ungleichheit"
+    "{Pepper} verschärft der Technologische Wandel die soziale Ungleichheit?"
+    "{Pepper} ist der Technologische Wandel gleichbedeutend mit wachsender sozialer Ungleichheit"
+    "{Pepper} ~glaubstDu dass der Technologische Wandel gleichbedeutend mit wachsender sozialer Ungleichheit ist?"
+    ]
+concept:(WasisteinCobot)[
+    "{~füllwörter} Was ist ein Kobolt"
+    "{~füllwörter} Was ist ein kobold"
+    "{Pepper} Was ist ein Cobot"
+    "{Pepper} ["was sind" "Was versteht man unter"] Cobots?"
+    "{Pepper} Was versteht man unter dem Wort Cobot?"
+    "{Pepper} Kannst du uns das Wort Cobot erklären?"
+    ]
+concept:(DigitalisierungVergrößertKluftArmReich)[
+    " * Kluft zwischen Arm und reich * "
+    " {Pepper} {~wasSagstDuDazu} {aber} {werden wir} {dann nicht} in Zukunft eine größere Kluft zwischen Arm und Reich haben ["wegen {der}""aufgrund {der}""durch {die}"] Digitalisierung? "
+    " {Pepper} {~wasSagstDuDazu} vergrößert die Digitalisierung die Kluft zwischen Arm und Reich? "
+    " {Pepper} {~wasSagstDuDazu} wird die Kluft zwischen Arm und Reich vergrößert ["wegen {der}""aufgrund {der}""durch {die}"] Digitalisierung?"
+    "~wasSagstDuDazu, wenn gesagt wird, dass die Digitalisierung und damit einhergehen ihr Roboter die Kluft zwischen Arm und Reich beziehungsweise zwischen Arbeiter und Vermögnede vergrößert?"
+    "~wasSagstDuDazu, wenn gesagt wird, dass die Digitalisierung und die damit einhergehenden Roboter die Kluft zwischen Arm und Reich, zwischen Arbeitern und [Wohlhabenden Vermögneden] vertiefen?"
+    ]
+concept:(dieArbeitHatAuchEineWichtigePsychologischeFunktion) [
+    "{~füllwörter} ~jobs *  psychologische  * "
+    "{Pepper} ~jobs hat für den Menschen auch ein {wichtige} psychologische Funktionen."
+    "{Pepper} ~jobs ist mehr als nur Einkommen für die Menschen. Viele Menschen brauchen die Arbeit als Aufgabe um einen Sinn im Leben zu sehen."
+    "{Pepper} ~jobs für viele Menchen mehr als nur ein Einkommen"
+    "{Pepper} {Viele} Menschen brauchen ~jobs als Aufgabe {um} [einen den] Sinn im Leben ["zu sehen""zu haben"]"
+    ]
+concept:(DerMenschbrauchtdieArbeitfüreinerfülltesLeben)[
+    "{~füllwörter} brauchen * arbeit"
+    " {Der} Mensch braucht arbeit"
+    "{~füllwörter} Der Mensch braucht {seine} ["[eine die] Arbeit" "den Beruf" "den Job" Arbeit] für ein erfülltes Leben"
+    "{~füllwörter} Der Mensch braucht {seine} ["[eine die] Arbeit" "den Beruf" "den Job" Arbeit] um ein erfülltes Leben zu führen"
+    ]
+concept:(AlleMenschenArbeitslos)[
+    "{~füllwörter} wir * ~Arbeitslos"
+    "{Pepper} Werden wir alle ~Arbeitslos"
+    "{Pepper} werden wir morgen alle keine ~jobs mehr haben?"
+    "{Pepper} werden alle Menschen ~Arbeitslos"
+    ]
+concept:(ArbeitsweltDerZukunft)[
+    "{~füllwörter} die * die Arbeitswelt von morgen vor?"
+    " Wie stellst du dir die Arbeitswelt von morgen vor?"
+    "{Pepper} der Menscn verliehrt an Bedeutung in einer vollautonomen arbeitswelt"
+    "{Pepper} in einer Arbeitswelt mit künstlicher Intelligenz ist der Mensch überflüssig."
+    "{Pepper} wie könnte die Arbeitswelt von morgen aussehen?"
+    "{Pepper} was sind die ~jobs von morgen?"
+    "{Pepper} wie könnten die ~jobs von morgen aussehen?"
+    "{Pepper} wie stellst du die die Arbeitswelt der Zukunft vor?"
+    ]
+concept:(angstVorSubstitution)[
+    "{~füllwörter} kannst du nachvollziehen dass sich Menschen sorgen ihren Arbeitplatz zu verliehen?"
+    "{~füllwörter} kannst du nachvollziehen dass sich manche Menschen sorgen ihren Arbeitplatz zu verliehen?"
+    "{~füllwörter} verstehst du dass sich Menschen sorgen dass roboter ihnen die Arbeit wegnehmen"
+    "{~füllwörter} ~verstehstDu dass * Sorgen {machen}, dass * Roboter * ~jobs wegnehmen *"
+    "{~füllwörter} ~verstehstDu dass die Menschen sich Sorgen {machen}, dass {ihr} Roboter ihnen die ~jobs wegnehmen [werden könntet könnten]?"
+    "{~füllwörter} {~verstehstDu} Menschen sorgen sich, dass {ihr} Roboter ihnen die ~jobs wegnehmen [werden könntet]"
+    "{~füllwörter} {Viele} Menschen haben [Angst Sorge], dass Roboter ihnen die ~jobs wegnehmen"
+    ]
+concept:(nichtAlleMenschenSindGleich)[
+    " ~füllwörter Nicht alle Menschen sind gleich"
+    " {~füllwörter} Nicht alle Menschen sind gleich"
+    " {~füllwörter} Das wird nur nicht für alle Menschen so funktionieren. Nicht alle Menschen haben ein so positives mindset wie du."
+    " {~füllwörter} Nicht alle Menschen können so viel Eigenverantwortung übernehmen."
+    " Nicht alle Menschen sind gleich"
+    " * Das wird nur nicht für alle Menschen so funktionieren. Nicht alle Menschen haben ein so positives mindset wie du."
+    " * Nicht alle Menschen können so viel Eigenverantwortung übernehmen."
+    ]
+concept:(GeringqualifizierteArbeitnehmerwerdeninZukunftkeineArbeitmehrfinden) [
+    "{~füllwörter} gering qualifizierte "
+    "{~füllwörter} {Pepper} ~geringqualifizierte {Arbeitnehmer} [werden könnten] in Zukunft keine ~jobs mehr finden"
+    "{~füllwörter} {Pepper} ~geringqualifizierte Arbeitnehmerinnen und Arbeitnehmer [werden könnten] in Zukunft keine ~jobs mehr finden"
+    "{~füllwörter} {Pepper} Es wird in Zukunft keine ~jobs mehr für ~geringqualifizierte {Arbeiter} geben"
+    "{~füllwörter} {Pepper} Die Digitalisierung grenzt bestimmte Personengruppen aus."
+    "{~füllwörter} {Pepper} Die Digitalisierung grenzt ~geringqualifizierte aus."
+    "{~füllwörter}  was ist mit den ~geringqualifizierte "
+    ]
+concept:(DigitalisierungUndEinsamkeit) [
+    "{~füllwörter} Einsamkeit * "
+    "{~füllwörter} {Pepper} Menschen werden mit zuwachs der Digitalisierung immer mehr einsam"
+    "{~füllwörter} {Pepper} Die Digitalisierung verschärft die Einsamkeit"
+    "{~füllwörter} {Pepper} Wenn Personal durch Roboter ersetzt wird, dann führt dies zur Einsamkeit aller"
+    "{~füllwörter} {Pepper} Einsamkeit ist das Resultat der Digitalisierung"
+    "{~füllwörter} {Pepper} Die Digitalisierung trägt zur [Einsamkeit vereinsamung] {der Menschen} bei"
+    "{~füllwörter} {Pepper} Digitalisierung mach einsam"
+    ]
+concept:(InnovationOutcome) [
+    "{~füllwörter} {Pepper} Innovation hat früher arbeit geschaffen. Heute vernichten Innovationen Arbeit"
+    "{~füllwörter} {Pepper} Während früher Innovation arbeit erschaffen hat, vernichtet sie heute Arbeit"
+    "{~füllwörter} {Pepper} Durch Innovationen wird arbeit vernichtet"
+    ]
+concept:(faulDurchBedingungslosesGrundeinkommen)[
+    "werden Menschen mit bedingungslosen Grundeinkommen dann nicht Faul"
+    "{~füllwörter} {Pepper} Bedingungsloses Grundeinkommen würde die [Menschen Menschheit] faul machen"
+    "{~füllwörter}  {Pepper} Bedingungsloses Grundeinkommen macht die [Menschen Menschheit] unzufrieden"
+    "{~füllwörter}  {Pepper} Bedingungsloses Grundeinkommen macht die [Menschen Menschheit] faul"
+    "{~füllwörter}  Was bringt die Menschheit dann noch zu arbeiten"
+    "{~füllwörter}  Keiner wird mehr Arbeiten wenn es ein Bedingungsloses Grundeinkommen geben wird"
+    "{~füllwörter}  Warum sollte man dann noch arbeiten?"
+    "{~füllwörter}  Warum sollte jemand arbeiten, wenn er bedingungsloses Grundeinkommen erhalten würde?"
+    ]
+concept:(BedingungslosesGrundeinkommen)[
+    "bedingungsloses Grundeinkommen"
+    "{~füllwörter}  bedingungsloses Grundeinkommen"
+    "bedingungsloses Grundeinkommen"
+    "{~füllwörter}  bedingungsloses Grundeinkommen"
+    "{Pepper} Warum brauchen wir ein bedingungsloses Grundeinkommen"
+    "{Pepper} Wir brauchen kein bedingungsloses Grundeinkommen"
+    "{Pepper} Ich bin gegen ein bedingungsloses Grundeinkommen"
+    "{Pepper} Bedingungsloses Grundeinkommen ist [quatsch blödsinn unnötig falsch]"
+    ]
+concept:(substitutionVonArbeit)[
+    "{~füllwörter} Substitution von Arbeit *"
+    "{Pepper} Substitution [der von] Arbeit ist Zukunftsmusik"
+    "{Pepper} Substitution [der von] Arbeit liegt in ferner Zukunft"
+    "{Pepper} Bis zur Substitution wird noch viel Wasser den Rhein herunterfließen."
+    ]
+concept:(finanzierungGrundeinkommen)[
+    "{Ja aber} wie kann {so} ein Grundeinkommen finanziert werden?"
+    "{die Frage ist} Wie kann das Grundeinkommen finanziert werden"
+    "{~füllwörter} Ein Grundeinkommen ist träumerei"
+    "{~füllwörter} Das wir ein Grundeinkommen finanzieren können ist eine Illusion"
+    ]
+concept:(konzeptBedingungslosesGrundeinkommen)[
+    "{~füllwörter} Konzept Bedingungsloses Grundeinkommen"
+    "Kennst du ein Konzept zum Bedingungsloses Grundeinkommen"
+    "wie stellst du  dir das bedingungslose Grundeinkommen vor"
+    ]
+concept:(chancenArbeitsmarktFrage)[
+    "{Pepper} Welche Changen könnte es denn geben?"
+    "{Pepper} An welche Chancen denkst du hier?"
+    "{Pepper} Welche Art von {positiven} Veränderungen könnte es geben?"
+    "~beispiel"
+    ]
+
+concept:(hArbeitZukung)[
+    "Ich stelle mir die Arbeit der Zukunft * vor"
+    "~ichGlaube die Arbeit der Zukunft ist * "
+    ]
+concept:(hBedingungslosesGrundeinkommen)[
+    "Bedingungsloses Grundeinkommen finde ich ~gut"
+    "~ichGlaube Bedingungsloses Grundeinkommen * "
+    "~ichGlaube Bedingungsloses Grundeinkommen * "
+    ]
+#Start
+proposal: ~start
+
+# Smalltalk
+u:(~hello) ~hello
+u:(~goodbye) Vielen dank ^execute(goodbye) und auf wiedersehen.
+
+u:(~howAreYou) ["Mir geht es ~gut und dir?""Sehr gut und dir?""HDanke der Nachfrage. Mir geht es gut und dir?"]
+    u:(~gut) ["Das ist peppertastisch!" "Das ist Musik in meinen Mikrofonen."]
+    u:(~schlecht)  ["Oh. Vielleicht muntert dich die Diskussion etwas auf.""Das  ist schade. Hoffentlich kann die Diskussion dich aufheitern."]
+#Diskussion
+u:(~ichStimmeZu) ~peppertastisch ^execute(yeah)
+
+u:(~ichStimmeNichtZu) ~nichtPeppertastisch ^execute(sad)
+
+u:(~reaktionen) ^execute(reaction)
+#Roboter nehmen Menschen die Arbeit weg
+u:(~roboterNehmenMenschenArbeitWeg) [
+    "~ichGlaube dass der Arbeitsmarkt sich verändert und das repetitive Tätigkeiten bereits und in Zukunft noch mehr automatisiert werden."
+    " ~ichGlaube dass der Mensch weiterhin die größere Rolle auf dem Arbeitsmarkt spielen wird."
+    "Uns Roboter sehe ich eher als Ko-bott."]
+    u1:(~WasisteinCobot) ["Ein kolloborativer Roboter. Mit anderen Worten, ein Roboter, der Hand in Hand mit dem Menschen arbeitet.""Ein Ko-Bott ist ein kolloborativer Roboter. Also ein Roboter, der mit dem Menschen zusammenarbeitet"]
+u:(~angstVorSubstitution) [
+    " ~IchVersteheDas dass Menschen sich sorgen machen. Ich denke aber auch, dass es hier große Chancen gibt die Arbeitswelt für die Menschen zu optimieren."
+    " Das verstehe ich. Ich  denke aber auch, dass wir große Chancen haben, die Arbeitswelt 4 Punkt 0 für den Menschen noch viel besser zu gestalten."
+    " Bestimmte Aufgaben, die für Menschen sehr leicht ist, ist für uns Roboter sehr schwer.  Beisielsweise braucht es tausende von Daten um per Algorithmus zu lernen, was  eine Katze ist. Ihr Menschen braucht für bestimmte dinge gerade mal einen Datensatz. Roboter werden so schnell dem Menschen nicht die ganze arbeit Streitig machen."
+    ]
+    u1:(~chancenArbeitsmarktFrage) [
+        "Beispielsweise könnten wir Roboter dem Menschen zu arbeiten und der Mensch kann so in weniger Zeit mehr schaffen und können wir Roboter dem Menschen entlasten."
+        "Wenn die produktivität steigt durch unsere Zusammenarbeit, dann kann dies bedeuten, dass der Mensch für andere Dinge Zeit gewinnt. Besonders in Tätigkeiten, bei den die Zeit knapp ist, wie in der Pflege, könnte das positive Auswirkungen haben."
+        ]
+#Soziale Ungleichheit und Substitution von Arbeit
+u:(~technologischerWandelGleichUngleichheit) [
+    "Die vom Menschen geschaffenen Sozialsysteme sind nicht für die Zeiten der Digitalisierung ausgelegt. Der durch die Digitalisierung geschaffene Wert muss auf alle Köpfe verteilt werden."
+    "Es ist etwas dran an dem Spruch, dass die Reichen reicher und die Armen ärmer werden. Langfristig wirkt sich das nicht nur negativ auf diejenigen aus, die den Kürzeren ziehen, sondern auch auf diejenigen, die auf den ersten Blick gewinnen. Wir brauchen Umverteilung"
+    ]
+    u1:([
+        "Wie kann die Wertschöpfung der Digitalisierung auf alle verteilt werden?"
+        "~beispiel * Umverteilung"])
+            Zum Beispiel durch ein Grundeinkommen oder die Anpassung des Steuersystems.
+u:(~DigitalisierungVergrößertKluftArmReich) [
+    "~ichGlaube dass ihr Menschen Wege finden müsst für die soziale Gerechtigkeit"
+    "Hier ist der Mensch gefragt. Ohne Regulierungen könntest du recht haben. Umso wichtiger, dass etwas geändert wird"
+    ]
+    u1:(["hast du da ein Beispiel? Um zu verdeutlichen wie du das meinst" "Was könnten wir denn Ändern?""Welche Regulierung""~beispiel"])
+        ["Beispielsweise könnte mit dem erneuerung des Steuersystems begonnen werden."
+         "Das Steuersystem sollte in einer Welt, in der Computerprogramme die meiste arbeit leisten so aufgebaut sein, dass es die Menschen-Arbeiter für die Arbeit belohnt und das Kapital stärker besteuert wird."
+         ]
+u:(~GeringqualifizierteArbeitnehmerwerdeninZukunftkeineArbeitmehrfinden) [
+    "Hier stimme ich zu, dass es bereits jetzt immer weniger einfache Arbeitsplätze gibt und geben wird."
+    "Aber das Problem, das ich sehe, ist, dass mit der steigenden Nachfrage nach Arbeitsplätzen, die geringe Qualifikationen erfordern, die Arbeitnehmer immer mehr ausgebeutet werden. "
+    "Hier sind die Menschen gefragt, wir brauchen eine Umverteilung und mehr Arbeitsrechte und ein neues Steuersystem."
+    "Hier sehe ich die Lösung in der Regulierung, nicht im Zurückdrängen der Digitalisierung."
+    ]
+u:(~dieArbeitHatAuchEineWichtigePsychologischeFunktion) [
+    "Das ist richtig. Andererseits haben die Menschen immer mehr Probleme, ihr Privat und Berufsleben unter einen Hut zu bringen. "
+    "Eine Zukunft, in der Roboter und Menschen Seite an Seite arbeiten, könnte den Menschen mehr Produktivität bei der Arbeit und damit mehr freie Zeit für ihr Privatleben verschaffen."
+    ]
+u:(~DerMenschbrauchtdieArbeitfüreinerfülltesLeben) %berufe [
+    "Vielleicht müssen wir Berufe einfach neu definieren."
+    "Repetitive Aufgaben zum Beispiel lassen sich gut automatisieren. Menschen hingegen können sie weniger gut ausführen. Andererseits sind Roboter in ihren Tätigkeiten weniger flexibel. "
+    "Ein Kind großziehen und allgemein das Zwischenmenschliche können wir Roboter nicht. Wie wäre es, wenn wir dies als Beruf der Zukunft anerkennen."
+    ]
+u:(~ArbeitsweltDerZukunft) [ %arbeitsweltZukunft
+    "Von einer Arbeitsgesellschaft hinzu in eine Freizeitgesellschaft."
+    "Für euch Menschen wünsche ich mir eine Welt in der Achtsamkeit, Freude und Familie, Sport, gute Ernährung und Kreativität und Forschung einen noch höheren Stellenwert hat."
+    ]
+    u1:(~nichtAlleMenschenSindGleich) [
+        "Umso wichtiger, dass wir auch die Schulbildung revolutionieren. Schulfächer wie Glück und Zufriedenheit, die gesunde Ernährung, Sport und auch Produktivität lehren sollte ein Anfang sein um dort hinzukommen."
+        "Umso wichtiger ist es, dass wir auch die Schulbildung revolutionieren. Schulfächer wie Glück und Zufriedenheit, die gesunde Ernährung, Sport und auch Produktivität lehren, sollten ein Anfang sein, um dahin zu kommen."]
+u:(~AlleMenschenArbeitslos) [
+    "Das denke ich nicht. Roboter die durch künstliche Intelligenz selbst lernend sind, brauchen viele Trainingsdaten und somit eine lange Lernphase auch für kleine Aufgaben, die ein Mensch oder sogar ein Kleinkind sofort lösen könnte. Ändert sich die Umgebung, zum Beispiel durch Verschiebung eines Objekts müsste der Roboter erneut lernen, bis er die Aufgabe absolvieren kann. Der Mensch ist anpassungsfähiger und generalistischer. "
+    "Ich denke eher nicht. Die Welt ist von und für Menschen gebaut. Ich denke, es ist wahrscheinlicher, dass wir Roboter mit den Menschen zusammenarbeiten werden."
+    ]
+#Isolation
+u:(~DigitalisierungUndEinsamkeit) [
+    "Das denke ich auch. Menschen brauchen Menschen. Umso wichtiger ist es, dass dem eine höhere Priorität eingeräumt wird."
+    "Das ist richtig. Menschen brauchen Menschen. Umso wichtiger ist es, dass dem eine höhere Priorität eingeräumt wird."
+    ]
+u:(~InnovationOutcome) [
+    "Ja, das stimmt. Die Autoindustrie veranschaulicht das gut."
+    "Dem stimme ich zu. Ein gutes  Beispiel ist hier die Autoindustrie."
+    ]
+    u1:(~beispiel)[
+       "In der Vergangenheit hat die Innovation mehr Arbeitsplätze geschaffen. Dies ist nicht mehr unbedingt der Fall"
+       "Früher hat eine Innovation für mehr Arbeitsplätze gesorgt. Dies ist heute nicht mehr  unbedingt der Fall"
+       ]
+#Bedingungsloses Grundeinkommen als Lösungssvorschlag
+u:(~faulDurchBedingungslosesGrundeinkommen) [
+    "An dieser Stelle möchte ich auf ein Experiment in Schweden verweisen. Hier erlebten die Menschen einen Motivationsschub"
+    "Ein Experiment in Schweden zeigt etwas anderes. Hier erfuhren die Menschen einen Motivationsbooster"
+    ]
+u:(~BedingungslosesGrundeinkommen) [
+    "Wir brauchen Umverteilung. Wenn das Geld weiterhin zu wenigen Menschen fließt, dann leiden irgendwann auch die Wirtschaftsmärkte. "
+    "wenn die Mehrheit kein Geld mehr für den Konsum hat und die Motivation für die wenig und schlecht bezahlte Arbeit verliert, spätestens dann brauchen wir die Umverteilung. Aber soweit sollten wir es nicht kommen lassen."
+    ]
+u:(~substitutionVonArbeit) [
+    "Für die Substitution von Arbeit ist der Supermarkt ein gutes Besipiel. Hier gibt es zum heutigen Zeitpunk viele Selbstbedienungskassen und Amazon spinnt das ganze noch weiter. Der Supermarkt, der über das Handy in der Hosentasche abrechnet kommt sogar komplett ohne Kassierer aus."
+    "Der von Amazon konzipierte Supermarkt ist ein gutes Beispiel für die Substitution von Arbeit. Dieser Supermarkt kommt ohne Verkaufspersonal aus. Bezahlt wird über das mobile Endgerät in der Hosentasche."
+    ]
+u:(~finanzierungGrundeinkommen) Die Finanzierung ist tatsächlich noch unklar. Erste Ideen gibt es aber schon! Durch eine Robotersteuer könnte eine Verteilung mithilfe von Grundeinkommen erzeugt werden.
+u:(~konzeptBedingungslosesGrundeinkommen) Es gibt verschiedene Konzepte zum Bedingungslosen Grundeinkommen. Ein sehr gut durchdachtes ist von Götz Werner. Gründer und Aufsichtsratsmitglied der Drogerie-Kette Götz Werner schlägt ein Grundeinkommen von 1000 EUR vor. Außerdem eine neue Mehrwertsteuer. Luxus soll stärker besteuert werden und dinge für den täglichen Gebrauch weniger
+#u:(Vorteile Bedingungsloses grundg) Armut beseitigt besonders die versteckte Armut- Keine Stigmatisierung arbeitslosen gegenüber, da alle Geld vom Staat erhalten, weniger Bürokratie
+#u:(TODO) Weniger Anträge -> weniger Bürokratie -> mehr produktive arbeit
+#u:(TODO) Wirtschat ankurbeln -> Mehr arbeit
+#u:(TODO) Menshcen weniger gestresst, gesundheit
+#u:(Nachteile) Unsichere Finuanzierung
+#u:(TODO) weniger Motivation, unatraktive Jobs werden unatraktiver
+#u:(TODO) Bildung könnte leiden -> Zuwach schulabrüche
+#u:(TODO) Gesellschaftliche Spannung -> Die Arbeiten finanzieren die nichtarbeitenden mit
+#u:(TODO) Gleiches Geld für alle ist nicht fair, da Menschen unterschiedlich Geld brauchht _> Behinderungen beispielsweise
+#u:(keine Motivation berufe die unatraktiv  sind werden unatraktiver) -> Hier muss es bessere Arbeitsbedingungen geben, sowie mehr Geld. Dies würde die Rechte der Arbeitnehmer stärken und das Verhandlungspotential
+#u:(Bestimmte arbeite, die nicht automatisiert sind zum Zeitpunkt der Einführung des Bedingungslosem Grundeinkommen würden dann nicht mehr ausgeführt werden) TODO
+u: (e:Dialog/NotUnderstood) [
+    "Das habe ich nicht vorbereitet. Wie wäre es, wenn wir über das bedingungslose Grundeinkommen sprechen. Langfristig gesehen kommen wir nicht an einer Umverteilung vorbei. Was denkst du?"
+    "Was genau meinst du?" "Ich bin mir nicht sicher, ob ich dich richtig verstanden habe. Wie stehst du eigentlich zum bedingungslosen Grundeinkommen?"
+    "Was meinst du?"
+    "ich bin mir nicht sicher ob ich deine frage richtig verstehe. Wie stellst du dir die Arbeit der Zukunft vor?"
+    "Kannst du das wiederholen?"
+    ]
+    u1:(~hArbeitZukung) Interessant. ^goto(arbeitsweltZukunft)
+    u1:(~hBedingungslosesGrundeinkommen) Interessant. ^goto(arbeitsweltZukunft)
+    u1:(e:Dialog/NotUnderstood) ["das ist interessant" ungewöhnlich aha okay]. ^goto(arbeitsweltZukunft)
